@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using System.Text;
 
-//[assembly: InternalsVisibleTo("VigenereCipher.Tests")]
+[assembly: InternalsVisibleTo("VigenereCipher.Tests")]
 namespace VigenereCipher.Tools
 {
     public class Cipher
